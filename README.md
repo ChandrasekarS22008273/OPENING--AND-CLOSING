@@ -27,10 +27,10 @@ Closing: Fill small holes in the detected edges to enhance the structure.
 Show the original grayscale image, along with the results of the opening and closing operations for visual comparison.
 
 ## Program:
-
-### Developed By : Chandrasekar S
-### Register Number: 212222230025
-
+```
+Developed By : Chandrasekar S
+Register Number: 212222230025
+```
 ### Import the necessary packages
 ```python
 import cv2
@@ -47,7 +47,7 @@ plt.imshow(image_rgb)
 plt.title("Original Image")
 plt.axis("off")
 ```
-![Screenshot 2024-11-16 220423](https://github.com/user-attachments/assets/e85dc3b9-ceab-4b23-8325-a02ee688883e)
+![image](https://github.com/user-attachments/assets/10b7a6b0-b19e-4c77-9f21-bb782585deed)
 
 ### Use Opening operation
 ```python
@@ -57,7 +57,8 @@ plt.imshow(opening_image_rgb)
 plt.title("Opening Operation")
 plt.axis("off")
 ```
-![Screenshot 2024-11-16 220432](https://github.com/user-attachments/assets/35e0d500-e713-4bf6-86a4-8d7d67cf38ce)
+![image](https://github.com/user-attachments/assets/3a7cdaf8-4676-4e96-8e70-980dd580a311)
+
 
 ### Use Closing Operation
 ```python
@@ -67,7 +68,7 @@ plt.imshow(closing_image_rgb)
 plt.title("Closing Operation")
 plt.axis("off")
 ```
-![Screenshot 2024-11-16 220438](https://github.com/user-attachments/assets/29d7e3d0-1de7-4a63-ac19-4cd2d63bb318)
+![image](https://github.com/user-attachments/assets/a18cc88f-7fb4-48bc-96be-b4bdfe81e5e0)
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
